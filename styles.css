@@ -1,0 +1,79 @@
+body{
+    background-image:linear-gradient(rgb(0,0,0,0.75),rgba(0,0,0,0.75)),url(/pictures/293261064.jpg);
+    background-position:center;
+    background-size:cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div.submission-form{
+    text-align:center;
+    background-color:rgb(0,0,0,0.75);
+    color:cyan;
+    display:block;
+}
+form{
+    display:block;
+    margin-left: 400px;
+    margin-top: 200px;
+    text-align: center;
+    border:2px solid rgb(64, 61, 61) ;
+    max-width:500px;
+}
+label{
+    display:block;
+    padding:5px;
+    text-transform:uppercase;
+    color:cyan;
+}
+input{
+    display:block;
+    width:80%;
+    padding:10px;
+    margin-left:20px;
+    border-bottom: 2px solid rgb(16, 14, 14);
+    border-collapse:collapse;
+    box-decoration-break: clone;
+    background: transparent;
+    color:white;
+}
+button{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight:bold;
+    border:2px solid cyan;
+    background:transparent;
+    color:red;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+}
+span{
+    background:cyan;
+    height:100%;
+    width:0;
+    border-radius:25px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index:-1;
+    transition:1.0s;
+
+}
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}
+a:link, a:visited {
+    color: red;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    transition:1.0s;   
+} 
+a:hover, a:active {
+    z-index:-1;
+}
