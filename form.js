@@ -4,7 +4,6 @@ function validate(){
 var email = document.getElementById("email").value;
 var password = document.getElementById("password").value;
 if ( email == "fredrichmatiku@gmail.com" && password == "fredrich"){
-alert ("Login successfully");
 window.location = "index2.html"; // Redirecting to other page.
 return false;
 }
